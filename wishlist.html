@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plant Haven</title>
+
+    <!--Style Sheets-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="style/main.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!--------------------------------------------------------------------------------------------->
+    <!--NavBar-->
+
+    <nav class="navbar fixed-top">
+        <div class="container">
+
+            <!---logo-->
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="assets/pot plant logo.jpeg" alt="Logo">
+            <p>Plant Haven</p>
+          </a>
+
+          <!---Nav Items-->
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="wishlist.html">Wishlist</a>
+              </li>
+        </div>
+    </nav>
+
+    <h5>Welcon to Wishlist</h5>
+
+    <!--------------------------------------------------->
+    <!--table-->
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Image</th>
+            <th scope="col">Plant name</th>
+            <th scope="col">Remove</th>
+          </tr>
+        </thead>
+
+        <tbody class="table-group-divider">
+            
+          <tr class="row-one">
+            <th scope="row" >1</th>
+            <td><img src="assets/plant 3.png" class="table-img"></td>
+            <td class="table-text">Dracaena Trifasciata</td>
+            <td><button class="remove-btn" id="rowOne" >Remove</button></td>
+          </tr>
+          <tr class="row-two">
+            <th scope="row">2</th>
+            <td><img src="assets/plant 4.png" class="table-img"></td>
+            <td class="table-text">Swiss Cheese plant</td>
+            <td><button class="remove-btn" id="rowTwo">Remove</button></td>
+          </tr>
+          <tr class="row-three">
+            <th scope="row">3</th>
+            <td><img src="assets/plant 5.png" class="table-img"></td>
+            <td class="table-text">Areca Palm</td>
+            <td><button class="remove-btn" id="rowThree">Remove</button></td>
+          </tr>
+          <tr class="row-four">
+            <th scope="row">4</th>
+            <td><img src="assets/plant 7.png" class="table-img"></td>
+            <td class="table-text">Strelitzia Reginae</td>
+            <td><button class="remove-btn" id="rowFour">Remove</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+   
+     
+
+
+    <!-- Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="script/main.js"></script>
+</body>
+</html>
